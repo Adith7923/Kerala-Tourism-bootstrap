@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+body{
+    background-image: radial-gradient(#1f3e2d, #e1dfcf);
+}
+    
+
+
+.navbar{
+    background-color: #55705a;
+    color: #907b65;
+    position: fixed;
+    width: 100%;
+    z-index: 1050;
+}
+
+.form-control {
+    background-color: #a48e77;
+    color: #55705a;
+border-color: #55705a;
+}
+
+h1{
+    color: white  ;
+}
+
+.rounded:hover{
+background-color: #55705a;
+}
+
+.frontpage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-left: 50px; 
+
+}
+
+
+.welcome h1{
+    margin: 0px;
+    color:   white;
+    text-shadow: 2px 2px 4px #4b4343;
+    margin-top: auto;
+
+}
+
+
+
+.small-carousel {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+
+  .small-carousel img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+  }
+
+h2{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.pp{
+    color: #55705a ;
+}
+
+.icon-link{
+    text-decoration: none;
+    color: #55705a  ;
+}
+
+
+
+
+#things h1{
+    color: white;
+}
+
+
+.green{
+    color:#ffffff;
+    
+}
+
+.btn{
+    background-color: #55705a;
+    border: #1f3e2d;
+}
+.btn:hover{
+    background-color: #c1c46f;
+    color: #55705a;
+
+}
+
+.btn:active{
+    background-color: #ffffff;
+    color: #55705a;
+    border: #55705a;
+    color: white;
+}
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hover-effect img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .hover-effect:hover img {
+    transform: scale(1.3);
+  }
+
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #49624dc1;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+  }
+
+  .hover-effect:hover .hover-overlay {
+    opacity: 1;
+    color: white;
+  }
+
+  .hover-overlay span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .hover-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .hover-container:hover .hover-overlay {
+    opacity: 1;
+  }
+
+  .overlay-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .rounded {
+    border-radius: 10px;
+  }
+
+  .img-fluid {
+    max-width: 400px;
+    height: 300px;
+  }
+
+#connect{
+  text-decoration: none;
+  color: white;
+}
+
+.fa-brands:hover{
+  color: #55705a;
+}
+
+.details{
+  color: #1f3e2d;
+}
